@@ -28,7 +28,6 @@ class Message
 end
 
 if $0 == __FILE__
-
   option = {}
   OptionParser.new do |opt|
     opt.on('-c integer', '--count integer', Integer, 'message count') { |v| option[:c] = v.to_i }
@@ -49,5 +48,4 @@ if $0 == __FILE__
     #puts m.generate
     io.puts m.generate
   end
-
 end
