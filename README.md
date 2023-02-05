@@ -1,6 +1,6 @@
 # JSON data generator
 
-Generate JSON data pretending multiple sensors. Pipe to another application such as mosquitto_pub.
+Generate JSON data pretending multiple sensors. It can pass the data to another application(eg. mosquitto_pub) by UNIX pipe. 
 
 ```mermaid
 graph LR
