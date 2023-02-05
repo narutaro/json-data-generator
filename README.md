@@ -7,7 +7,7 @@ graph LR
     A(json-generator.rb)
     B(publish.sh)
     C(IoT Core)
-    A-->B-->C  
+    A--pipe-->B--MQTT-->C  
 ```
 
 JSON:
